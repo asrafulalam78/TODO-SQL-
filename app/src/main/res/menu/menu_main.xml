@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqlitekotlinexample.MainActivity">
+    <item
+        android:id="@+id/action_all"
+        android:orderInCategory="1"
+        android:title="All Task"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_playlist_add_check_circle_24"/>
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="2"
+        android:title="@string/action_delete"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_delete"/>
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="3"
+        android:title="Add Task"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_add"/>
+</menu>
